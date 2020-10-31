@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" defer></script>
+    <script src="js/slick.min.js" defer></script>
+    <script src="js/script.min.js" defer></script>
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <header class="header">
+    <div class="container container_header">
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="facebook" viewBox="0 0 24 24">
+            <title>facebook</title>
+            <path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/>
+        </symbol>
+            <symbol id="instagram" viewBox="0 0 511 511.9">
+            <title>instagram</title>
+            <path d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0"/>
+            <path d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0"/>
+            <path d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0"/>
+        </symbol>
+            <symbol id="linkedin" viewBox="0 0 24 24">
+            <title>linkedin</title>
+            <path d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z"/
+            ><path d="m.396 7.977h4.976v16.023h-4.976z"/>
+            <path d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z"/></symbol>
+            <symbol id="yelp" viewBox="0 0 24 24">
+            <title>yelp</title>
+            <path d="m12.062 17.662c.038-.934-1.266-1.395-1.829-.671-1.214 1.466-3.493 4.129-3.624 4.457-.347 1 1.28 1.638 2.312 2.024 1.121.42 1.919.591 2.392.51.342-.071.562-.248.67-.533.089-.245.08-5.568.079-5.787z"/>
+            <path d="m11.522.642c-.08-.31-.295-.51-.647-.6-1.037-.272-4.966.838-5.698 1.624-.234.238-.318.515-.248.828l4.985 8c1.018 1.628 2.298 1.139 2.214-.681h-.001c-.066-1.199-.544-8.775-.605-9.171z"/>
+            <path d="m9.413 15.237c.942-.29.872-1.671.07-1.995-2.139-.881-5.06-2.114-5.285-2.114-.876-.052-1.045 1.201-1.134 2.096-.08.81-.084 1.552-.014 2.229.066.714.221 1.443.933 1.485.309-.001 5.383-1.686 5.43-1.701z"/>
+            <path d="m20.514 12.052c.403-.281.342-.7.347-.838-.108-1.024-1.83-3.61-2.692-4.029-.328-.152-.614-.143-.858.029-.323.219-3.24 4.444-3.413 4.619-.567.767.244 1.871 1.092 1.648l-.014.029c.341-.115 5.274-1.282 5.538-1.458z"/>
+            <path d="m15.321 15.586c-.881-.315-1.712.81-1.2 1.581.145.247 2.809 4.705 3.043 4.871.225.191.507.219.83.095.905-.362 2.865-2.876 2.992-3.857.051-.348-.042-.619-.286-.814-.197-.176-5.379-1.876-5.379-1.876z"/>
+        </symbol>
+            <symbol id="google" viewBox="0 0 512 512">
+            <title>google</title>
+            <path d="m512 256c0-16.084-1.509-32.183-4.497-47.813-1.348-7.075-7.544-12.188-14.736-12.188h-235.767c-8.291 0-15 6.709-15 15v90c0 8.291 6.709 15 15 15h120.967c-7.537 15.258-17.924 28.497-30.121 39.635l84.78 84.78c48.781-46.475 79.374-111.875 79.374-184.414z"/>
+            <path d="m256 120c29.429 0 57.422 9.346 80.947 27.041 5.947 4.468 14.341 3.926 19.614-1.392l64.014-64.014c2.974-2.974 4.57-7.061 4.38-11.265s-2.124-8.13-5.347-10.84c-45.805-38.392-103.916-59.53-163.608-59.53-87.849 0-165.458 44.654-211.337 112.452l88.048 88.048c21.006-47.316 68.268-80.5 123.289-80.5z"/>
+            <path d="m256 512c57.263 0 109.993-19.2 152.602-51.187l-86.371-86.371c-19.742 11.116-42.306 17.558-66.231 17.558-55.021 0-102.283-33.184-123.289-80.5l-88.048 88.048c45.879 67.798 123.488 112.452 211.337 112.452z"/>
+            <path d="m122.184 277.605c-1.149-7.079-2.184-14.208-2.184-21.605s1.035-14.526 2.184-21.605l-94.124-94.124c-17.808 34.78-28.06 74.045-28.06 115.729s10.252 80.949 28.061 115.728z"/></symbol></svg>
+        <div class="nav_first_box">
+
+            <div class="container_burger">
+              <div class="burger_box">
+                <div class="burger_menu_box">
+                  <nav class="nav_burger">
+                    <a href="/" class="logo_burger"><picture><source srcset="img/logo_white.webp" type="image/webp"><img src="img/logo_white.png" alt="" class="burger_logo"></picture></a>
+                   
+                    <ul class="ul_burger">
+                      <li class="li_burger">
+                        <a href="" class="link_burger">Individuals</a>
+                      </li>
+                      <li class="li_burger">
+                        <a href="" class="link_burger">Companies</a>
+                      </li>
+                      <li class="li_burger">
+                        <a href="" class="link_burger">Studio</a>
+                      </li>
+                      <li class="li_burger">
+                        <a href="" class="link_burger">The studio</a>
+                      </li>
+                      <li class="li_burger">
+                        <a href="" class="link_burger">About us</a>
+                      </li>
+                      <li class="li_burger">
+                        <a href="" class="link_burger">Book now</a>
+                      </li>
+                      <li class="li_burger">
+                        <div class="soc_icons_box">
+                            <a href="/" class="soc_link">
+                                <svg>
+                                    <use xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+                            <a href="/" class="soc_link">
+                                <svg>
+                                    <use xlink:href="#instagram"></use>
+                                </svg>
+                            </a>
+                            <a href="/" class="soc_link">
+                                <svg>
+                                    <use xlink:href="#linkedin"></use>
+                                </svg>
+                            </a>
+                            <a href="/" class="soc_link">
+                                <svg>
+                                    <use xlink:href="#yelp"></use>
+                                </svg>
+                            </a>
+                            <a href="/" class="soc_link">
+                                <svg>
+                                    <use xlink:href="#google"></use>
+                                </svg>
+                            </a>
+                        
+                        </div>
+                      </li>
+                    </ul>
+                  </nav>
+                  <span class="burger_span"></span>
+                </div>
+              </div>
+            </div>
+            <picture><source srcset="img/logo.webp" type="image/webp"><picture><source srcset="img/logo.webp" type="image/webp"><img class="header_logo" src="img/logo.png" alt=""></picture></picture>
+            <nav class="header_nav">
+                <ul class="header_ul">
+                    <li class="header_li">
+                        <a href="" class="header_link">Individuals</a>
+                    </li>
+                    <li class="header_li">
+                        <a href="" class="header_link">Companies</a>
+                    </li>
+                    <li class="header_li">
+                        <a href="" class="header_link">Studio</a>
+                    </li>
+                    <li class="header_li">
+                        <a href="" class="header_link">The studio</a>
+                    </li>
+                    <li class="header_li">
+                        <a href="" class="header_link">About us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="nav_secons_block">
+            <div class="btn_box_header">
+                <a href="/" class="btn btn_head">
+            Book Now
+                </a>
+            </div>
+            <div class="soc_icons_box">
+                <a href="/" class="soc_link">
+                    <svg>
+                        <use xlink:href="#facebook"></use>
+                    </svg>
+                </a>
+                <a href="/" class="soc_link">
+                    <svg>
+                        <use xlink:href="#instagram"></use>
+                    </svg>
+                </a>
+                <a href="/" class="soc_link">
+                    <svg>
+                        <use xlink:href="#linkedin"></use>
+                    </svg>
+                </a>
+                <a href="/" class="soc_link">
+                    <svg>
+                        <use xlink:href="#yelp"></use>
+                    </svg>
+                </a>
+                <a href="/" class="soc_link">
+                    <svg>
+                        <use xlink:href="#google"></use>
+                    </svg>
+                </a>
+            
+            </div>
+        </div>
+    </div>
+</header>
+    <main>
+        <section class="section1">
+        <div class="main_container">
+                <h1>
+                    Fast. Simple.<br> Professional <br> Headshots.
+                </h1>
+                <div class="first_sec_hashtag">
+                    <a href="" class="hashtag"> #1 Rated Headshot Photographers.</a>
+                </div>
+                <div class="btn_box pb70">
+                    <a href="/" class="btn">
+                    Browse Sessions
+                </a>
+                </div>
+        </div>
+    </section>
+    <section class="section2">
+        <div class="half_block block_black">
+            <div class="offer_title">
+                Individual Sessions
+            </div>
+                <ul class="offer_ul">
+                    <li class="offer_li wh">
+                        <span class="offer_big_number">1</span>
+                        Studio Sessions 
+                    </li>
+                    <li class="offer_li wh">
+                        <span class="offer_big_number">2</span>
+                        Outdoor Sessions 
+                    </li>
+                    <li class="offer_li wh" >
+                        <span class="offer_big_number">3</span>
+                        In-Office Sessions
+                    </li>
+                </ul>
+                <div class="btn_box pb100">
+                    <a href="/" class="btn">
+                        See More
+                    </a>
+                </div>
+        </div>
+        <div class="half_block ">
+            <div class="offer_title2">
+                Companies Sessions
+            </div>
+                <ul class="offer_ul">
+                    <li class="offer_li">
+                        <span class="offer_big_number2">1</span>
+                        Group On-Sites   
+                    </li>
+                    <li class="offer_li">
+                        <span class="offer_big_number2">2</span>
+                        Corporate Accounts
+                    </li>
+                </ul>
+                <div class="btn_box pb100">
+                    <a href="/" class="btn">
+                        See More
+                    </a>
+                </div>
+        </div>
+    </section>
+    <section class="section3">
+        <div class="section3_content">
+        <iframe  class="google_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.0737938464797!2d30.359679316243998!3d59.930917669683396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTnCsDU1JzUxLjMiTiAzMMKwMjEnNDIuNyJF!5e0!3m2!1sru!2sru!4v1603384376928!5m2!1sru!2sru" width="100%" height="560" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="content_area">
+            <div class="contain_block">
+                <div class="promo_title">
+                    Studio Near Me
+                </div>
+                <div class="promo_text">
+                    Search for your professional by zip code:
+                </div>
+                <div class="btn_box_map">
+                    <a href="/" class="btn">Search</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="section4">
+        <div class="main_container">
+            <div class="title">
+                Our professional services
+            </div>
+            <div class="section4_content">
+                <div class="categories">
+                  <a href="#" class="categoria" data-filter="all">All</a>
+                  <a href="#" class="categoria" data-filter="mod">Modeling</a>
+                  <a href="#" class="categoria" data-filter="act">Acting</a>
+                  <a href="#" class="categoria" data-filter="cor">Corporate</a>
+                  <a href="#" class="categoria" data-filter="bus">Business</a>
+                  <a href="#" class="categoria" data-filter="pro">Professional</a>
+                  <a href="#" class="categoria" data-filter="grp">Group</a>
+                  <a href="#" class="categoria" data-filter="com">Company</a>
+                  <a href="#" class="categoria" data-filter="off">Officer</a>
+                </div>
+                <div class="slider_box">
+
+                <div class="slider-nav">
+                    <div  class="slide_item" data-cat="mod" >
+                        <picture><source srcset="img/slide_face1.webp" type="image/webp"><picture><source srcset="img/slide_face1.webp" type="image/webp"><img src="img/slide_face1.jpg" alt="" class="slide_img"></picture></picture>
+                        <div class="person_info">
+                            <div class="btn_box">
+                                <a href="/" class="company_link_btn btn">
+                                    COMPANY
+                                </a>
+                                <div class="more_info_cont">
+                                    <a href="" class="more_info_link">
+                                        Check Service 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide_item"  data-cat="cor">
+                        <picture><source srcset="img/slide_face2.webp" type="image/webp"><picture><source srcset="img/slide_face2.webp" type="image/webp"><img src="img/slide_face2.jpg" alt="" class="slide_img"></picture></picture>
+                        <div class="person_info">
+                            <div class="btn_box">
+                                <a href="/" class="company_link_btn btn">
+                                COMPANY
+                                </a>
+                                <div class="more_info_cont">
+                                    <a href="" class="more_info_link">
+                                    Check Service 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="slide_item"  data-cat="mod">
+                    <picture><source srcset="img/slide_face3.webp" type="image/webp"><picture><source srcset="img/slide_face3.webp" type="image/webp"><img src="img/slide_face3.jpg" alt="" class="slide_img"></picture></picture>
+                    <div class="person_info">
+                        <div class="btn_box">
+                            <a href="/" class="company_link_btn btn">
+                            COMPANY
+                        </a>
+                        <div class="more_info_cont">
+                            <a href="" class="more_info_link">
+                                Check Service 
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="slide_item"  data-cat="cor">
+                <picture><source srcset="img/slide_face4.webp" type="image/webp"><picture><source srcset="img/slide_face4.webp" type="image/webp"><img src="img/slide_face4.jpg" alt="" class="slide_img"></picture></picture>
+                <div class="person_info">
+                    <div class="btn_box">
+                        <a href="/" class="company_link_btn btn">
+                        COMPANY
+                    </a>
+                    <div class="more_info_cont">
+                        <a href="" class="more_info_link">
+                            Check Service 
+                        </a>
+                    </div>
+                    </div>
+                </div>
+        </div>
+        <div class="slide_item"  data-cat="cor">
+            <picture><source srcset="img/slide_face1.webp" type="image/webp"><picture><source srcset="img/slide_face1.webp" type="image/webp"><img src="img/slide_face1.jpg" alt="" class="slide_img"></picture></picture>
+            <div class="person_info">
+                <div class="btn_box">
+                    <a href="/" class="company_link_btn btn">
+                    COMPANY
+                </a>
+                <div class="more_info_cont">
+                    <a href="" class="more_info_link">
+                        Check Service 
+                    </a>
+                </div>
+                </div>
+            </div>
+    </div>
+    <div class="slide_item" data-cat="act">
+        <picture><source srcset="img/slide_face2.webp" type="image/webp"><picture><source srcset="img/slide_face2.webp" type="image/webp"><img src="img/slide_face2.jpg" alt="" class="slide_img"></picture></picture>
+        <div class="person_info">
+            <div class="btn_box">
+                <a href="/" class="company_link_btn btn">
+                COMPANY
+            </a>
+            <div class="more_info_cont">
+                <a href="" class="more_info_link">
+                    Check Service 
+                </a>
+            </div>
+            </div>
+        </div>
+</div>
+<div class="slide_item"   data-cat="mod">
+    <picture><source srcset="img/slide_face3.webp" type="image/webp"><picture><source srcset="img/slide_face3.webp" type="image/webp"><img src="img/slide_face3.jpg" alt="" class="slide_img"></picture></picture>
+    <div class="person_info">
+        <div class="btn_box">
+            <a href="/" class="company_link_btn btn">
+            COMPANY
+        </a>
+        <div class="more_info_cont">
+            <a href="" class="more_info_link">
+                Check Service 
+            </a>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="slide_item"  data-cat="act" data-cat="grp">
+    <picture><source srcset="img/slide_face4.webp" type="image/webp"><picture><source srcset="img/slide_face4.webp" type="image/webp"><img src="img/slide_face4.jpg" alt="" class="slide_img"></picture></picture>
+    <div class="person_info">
+        <div class="btn_box">
+            <a href="/" class="company_link_btn btn">
+            COMPANY
+        </a>
+        <div class="more_info_cont">
+            <a href="" class="more_info_link">
+                Check Service 
+            </a>
+        </div>
+        </div>
+    </div>
+</div>
+                </div>
+                <div class="slider-for">
+                    <div class="slide_item" data-cat="act">
+                        <picture><source srcset="img/slide_face1.webp" type="image/webp"><picture><source srcset="img/slide_face1.webp" type="image/webp"><img src="img/slide_face1.jpg" alt="" class="slide_img"></picture></picture>
+                        <div class="person_info">
+                            <div class="btn_box">
+                                <a href="/" class="company_link_btn btn">
+                                COMPANY
+                            </a>
+                            <div class="more_info_cont">
+                                <a href="" class="more_info_link">
+                                    Check Service 
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="slide_item" data-cat="act">
+                    <picture><source srcset="img/slide_face2.webp" type="image/webp"><picture><source srcset="img/slide_face2.webp" type="image/webp"><img src="img/slide_face2.jpg" alt="" class="slide_img"></picture></picture>
+                    <div class="person_info">
+                        <div class="btn_box">
+                            <a href="/" class="company_link_btn btn">
+                            COMPANY
+                        </a>
+                        <div class="more_info_cont">
+                            <a href="" class="more_info_link">
+                                Check Service 
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="slide_item" data-cat="act" data-cat="act">
+                <picture><source srcset="img/slide_face3.webp" type="image/webp"><picture><source srcset="img/slide_face3.webp" type="image/webp"><img src="img/slide_face3.jpg" alt="" class="slide_img"></picture></picture>
+                <div class="person_info">
+                    <div class="btn_box">
+                        <a href="/" class="company_link_btn btn">
+                        COMPANY
+                    </a>
+                    <div class="more_info_cont">
+                        <a href="" class="more_info_link">
+                            Check Service 
+                        </a>
+                    </div>
+                    </div>
+                </div>
+        </div>
+        <div class="slide_item" data-cat="act"  data-cat="off" data-cat="grp">
+            <picture><source srcset="img/slide_face4.webp" type="image/webp"><picture><source srcset="img/slide_face4.webp" type="image/webp"><img src="img/slide_face4.jpg" alt="" class="slide_img"></picture></picture>
+            <div class="person_info">
+                <div class="btn_box">
+                    <a href="/" class="company_link_btn btn">
+                    COMPANY
+                </a>
+                <div class="more_info_cont">
+                    <a href="" class="more_info_link">
+                        Check Service 
+                    </a>
+                </div>
+                </div>
+            </div>
+    </div>
+    <div class="slide_item" data-cat="act"  data-cat="off">
+        <picture><source srcset="img/slide_face1.webp" type="image/webp"><picture><source srcset="img/slide_face1.webp" type="image/webp"><img src="img/slide_face1.jpg" alt="" class="slide_img"></picture></picture>
+        <div class="person_info">
+            <div class="btn_box">
+                <a href="/" class="company_link_btn btn">
+                COMPANY
+            </a>
+            <div class="more_info_cont">
+                <a href="" class="more_info_link">
+                    Check Service 
+                </a>
+            </div>
+            </div>
+        </div>
+</div>
+<div class="slide_item" data-cat="cor">
+    <picture><source srcset="img/slide_face2.webp" type="image/webp"><picture><source srcset="img/slide_face2.webp" type="image/webp"><img src="img/slide_face2.jpg" alt="" class="slide_img"></picture></picture>
+    <div class="person_info">
+        <div class="btn_box">
+            <a href="/" class="company_link_btn btn">
+            COMPANY
+        </a>
+        <div class="more_info_cont">
+            <a href="" class="more_info_link">
+                Check Service 
+            </a>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="slide_item" data-cat="off"   data-cat="mod">
+<picture><source srcset="img/slide_face3.webp" type="image/webp"><picture><source srcset="img/slide_face3.webp" type="image/webp"><img src="img/slide_face3.jpg" alt="" class="slide_img"></picture></picture>
+<div class="person_info">
+    <div class="btn_box">
+        <a href="/" class="company_link_btn btn">
+        COMPANY
+    </a>
+    <div class="more_info_cont">
+        <a href="" class="more_info_link">
+            Check Service 
+        </a>
+    </div>
+    </div>
+</div>
+</div>
+<div class="slide_item"  data-cat="act">
+<picture><source srcset="img/slide_face4.webp" type="image/webp"><picture><source srcset="img/slide_face4.webp" type="image/webp"><img src="img/slide_face4.jpg" alt="" class="slide_img"></picture></picture>
+<div class="person_info">
+    <div class="btn_box">
+        <a href="/" class="company_link_btn btn">
+        COMPANY
+    </a>
+    <div class="more_info_cont">
+        <a href="" class="more_info_link">
+            Check Service 
+        </a>
+    </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section5">
+        <div class="main_container flex_container">
+            <div class="sec5_cont_inf">
+                <title class="title_l">
+                    Why are headshots important?
+                </title>
+                <div class="text_cont">
+                <text class="text">
+                    It may not seem indispensable, but lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi enim, finibus non malesuada vitae, porttitor vitae enim. Nulla eget fringilla libero, ut ultricies neque. Morbi id aliquet sem. Ut mattis diam sit amet orci faucibus dignissim. Aliquam erat volutpat. Curabitur eu efficitur quam.
+                </text>
+            </div>
+            </div>
+            <div class="our_advantages_box">
+                <div class="advantages_logo">
+                    <picture><source srcset="img/five-advantages.webp" type="image/webp"><picture><source srcset="img/five-advantages.webp" type="image/webp"><img src="img/five-advantages.png" alt="" srcset=""></picture></picture>
+                </div>
+                <div class="five_advantages_title">
+                    5 Useful Tips
+                </div>
+                <div class="advantages_box">
+                    <div class="advantage_item">
+                    <picture><source srcset="img/camera.webp" type="image/webp"><picture><source srcset="img/camera.webp" type="image/webp"><img src="img/camera.png" alt="" class="advantage_img"></picture></picture>
+
+                    <div class="advantage_text">
+
+                        Go professional, it’s worth it,
+                        because cheap looks cheap. 
+                    </div>
+                </div>
+                    <div class="advantage_item">
+                    <picture><source srcset="img/mirror.webp" type="image/webp"><picture><source srcset="img/mirror.webp" type="image/webp"><img src="img/mirror.png" alt="" class="advantage_img"></picture></picture>
+
+                    <div class="advantage_text">
+                        Make sure it looks like you,
+                        not like you want to be.
+                    </div>
+                </div>
+                    <div class="advantage_item">
+                    <picture><source srcset="img/eyes.webp" type="image/webp"><picture><source srcset="img/eyes.webp" type="image/webp"><img src="img/eyes.png" alt="" class="advantage_img"></picture></picture>
+
+                    <div class="advantage_text">
+                        It’s all about the eyes and
+                        what’s behind them.
+                    </div>
+                </div>
+                    <div class="advantage_item">
+                    <picture><source srcset="img/studia.webp" type="image/webp"><picture><source srcset="img/studia.webp" type="image/webp"><img src="img/studia.png" alt="" class="advantage_img"></picture></picture>
+
+                    <div class="advantage_text">
+                        Control framing, lighting
+                        & background.
+                    </div>
+                </div>
+                    <div class="advantage_item">
+                    <picture><source srcset="img/tshirt.webp" type="image/webp"><picture><source srcset="img/tshirt.webp" type="image/webp"><img src="img/tshirt.png" alt="" class="advantage_img"></picture></picture>
+
+                    <div class="advantage_text">
+                        Stay chill with clothing &
+                        makeup, you must be you.
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="headshot_services">
+            <picture><source srcset="img/corcle-arrow.webp" type="image/webp"><picture><source srcset="img/corcle-arrow.webp" type="image/webp"><img src="img/corcle-arrow.png" alt="" class="circl_arrow"></picture></picture>
+            <div class="services_title">
+                Professional Headshot Services 
+            </div>
+            <div class="services_text">
+                <p class="services_text">
+                    Studio Inc is maecenas vulputate, sem at auctor vulputate, elit nunc sagittis ligula, vitae pulvinar metus elit in ante. Aenean tincidunt erat ac ante placerat facilisis. Fusce sed ligula tortor. Quisque non dignissim erat. Vestibulum ante ipsum primis in faucibus.
+                </p>
+                <p class="services_text">
+                    Covid-19 Update: We are open for studio, office, and outdoor sessions. For more information
+                    on our safety procedures, visit Studio Covid-19 Guidelines. 
+                </p>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <section class="section6">
+        <div class="main_container">
+            <div class="title_wh">
+                Clients love us 
+            </div>
+            <div class="subtitle wh">
+                We have formed true friendships.
+            </div>
+            <div class="second_slider_box">
+                <div class="second_slider">
+                    <div class="slide_item1">
+                        <picture><source srcset="img/customer-photo1.webp" type="image/webp"><picture><source srcset="img/customer-photo1.webp" type="image/webp"><img src="img/customer-photo1.jpg" alt="" class="customer_slide_img"></picture></picture>
+                        <div class="customer_inf_box">
+                            <div class="customer_name">
+                                Andrea Mcconnell 
+                            </div>
+
+                            <div class="customer_rate">
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                            </div>
+                            <div class="customer_comment">
+                                <div class="quote">
+                                    "
+                                </div>
+                                Studio is exactly what our business has been
+                                lacking. I will recommend them to everyone. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide_item1">
+                        <picture><source srcset="img/customer-photo2.webp" type="image/webp"><picture><source srcset="img/customer-photo2.webp" type="image/webp"><img src="img/customer-photo2.jpg" alt="" class="customer_slide_img"></picture></picture>
+                        <div class="customer_inf_box">
+                            <div class="customer_name">
+                                Marvin Luna 
+                            </div>
+
+                            <div class="customer_rate">
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                            </div>
+                            <div class="customer_comment">
+                                <div class="quote">
+                                    "
+                                </div>
+                                Studio impressed me on multiple levels.
+                                Studio is worth much more than offered. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide_item1">
+                        <picture><source srcset="img/customer-photo3.webp" type="image/webp"><picture><source srcset="img/customer-photo3.webp" type="image/webp"><img src="img/customer-photo3.jpg" alt="" class="customer_slide_img"></picture></picture>
+                        <div class="customer_inf_box">
+                            <div class="customer_name">
+                                Shanai Haas 
+                            </div>
+
+                            <div class="customer_rate">
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                            </div>
+                            <div class="customer_comment">
+                                <div class="quote">
+                                    "
+                                </div>
+                                Studio saved my job interview. Keep up with
+                                the excellent work!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide_item1">
+                        <picture><source srcset="img/customer-photo1.webp" type="image/webp"><picture><source srcset="img/customer-photo1.webp" type="image/webp"><img src="img/customer-photo1.jpg" alt="" class="customer_slide_img"></picture></picture>
+                        <div class="customer_inf_box">
+                            <div class="customer_name">
+                                Andrea Mcconnell 
+                            </div>
+
+                            <div class="customer_rate">
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                            </div>
+                            <div class="customer_comment">
+                                <div class="quote">
+                                    "
+                                </div>
+                                Studio is exactly what our business has been
+                                lacking. I will recommend them to everyone. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide_item1">
+                        <picture><source srcset="img/customer-photo2.webp" type="image/webp"><picture><source srcset="img/customer-photo2.webp" type="image/webp"><img src="img/customer-photo2.jpg" alt="" class="customer_slide_img"></picture></picture>
+                        <div class="customer_inf_box">
+                            <div class="customer_name">
+                                Marvin Luna 
+                            </div>
+
+                            <div class="customer_rate">
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                            </div>
+                            <div class="customer_comment">
+                                <div class="quote">
+                                    "
+                                </div>
+                                Studio impressed me on multiple levels.
+                                Studio is worth much more than offered. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide_item1">
+                        <picture><source srcset="img/customer-photo3.webp" type="image/webp"><picture><source srcset="img/customer-photo3.webp" type="image/webp"><img src="img/customer-photo3.jpg" alt="" class="customer_slide_img"></picture></picture>
+                        <div class="customer_inf_box">
+                            <div class="customer_name">
+                                Shanai Haas  
+                            </div>
+
+                            <div class="customer_rate">
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                            </div>
+                            <div class="customer_comment">
+                                <div class="quote">
+                                    "
+                                </div>
+                                Studio saved my job interview. Keep up with
+                                the excellent work!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide_item1">
+                        <picture><source srcset="img/customer-photo1.webp" type="image/webp"><picture><source srcset="img/customer-photo1.webp" type="image/webp"><img src="img/customer-photo1.jpg" alt="" class="customer_slide_img"></picture></picture>
+                        <div class="customer_inf_box">
+                            <div class="customer_name">
+                                Andrea Mcconnell 
+                            </div>
+
+                            <div class="customer_rate">
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                            </div>
+                            <div class="customer_comment">
+                                <div class="quote">
+                                    "
+                                </div>
+                                Studio is exactly what our business has been
+                                lacking. I will recommend them to everyone. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide_item1">
+                        <picture><source srcset="img/customer-photo2.webp" type="image/webp"><picture><source srcset="img/customer-photo2.webp" type="image/webp"><img src="img/customer-photo2.jpg" alt="" class="customer_slide_img"></picture></picture>
+                        <div class="customer_inf_box">
+                            <div class="customer_name">
+                                Marvin Luna 
+                            </div>
+
+                            <div class="customer_rate">
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                            </div>
+                            <div class="customer_comment">
+                                <div class="quote">
+                                    "
+                                </div>
+                                Studio impressed me on multiple levels.
+                                Studio is worth much more than offered. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide_item1">
+                        <picture><source srcset="img/customer-photo3.webp" type="image/webp"><picture><source srcset="img/customer-photo3.webp" type="image/webp"><img src="img/customer-photo3.jpg" alt="" class="customer_slide_img"></picture></picture>
+                        <div class="customer_inf_box">
+                            <div class="customer_name">
+                                Shanai Haas  
+                            </div>
+
+                            <div class="customer_rate">
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                                <picture><source srcset="img/star.webp" type="image/webp"><picture><source srcset="img/star.webp" type="image/webp"><img src="img/star.png" alt="" class="rate_star"></picture></picture>
+                            </div>
+                            <div class="customer_comment">
+                                <div class="quote">
+                                    "
+                                </div>
+                                Studio saved my job interview. Keep up with
+                                the excellent work!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section7">
+        <div class="main_container">
+            <div class="banner_box">
+            <div class="about_us_banner_title">
+                Fast, convenient & friendly<br> professional headshot sessions. 
+            </div>
+            <div class="btn_box">
+                <a href="#" class="btn">About Us</a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="section8">
+        <div class="small_container">
+            <div class="our_blog_title title">
+                Our Blog 
+            </div>
+            <div class="our_blog_subtitle subtitle">
+                Check our latest news.
+            </div>
+            <div class="our_state_box">
+                <div class="state_item">
+                    <picture><source srcset="img/ourblog1.webp" type="image/webp"><picture><source srcset="img/ourblog1.webp" type="image/webp"><img src="img/ourblog1.jpg" alt="" class="blog_img"></picture></picture>
+                    <div class="state_title">
+                        all about headshots inside professional studios
+                    </div>
+                    <div class="blog_item_foot">
+                    <div class="number_comments">
+                        <picture><source srcset="img/comm.webp" type="image/webp"><picture><source srcset="img/comm.webp" type="image/webp"><img src="img/comm.png" alt="" class="comment_ico"></picture></picture>
+                        15 Comments
+                    </div>
+                    <div class="state_data">
+                        June, 2020
+                    </div>
+                </div>
+                </div>
+                <div class="state_item">
+                    <picture><source srcset="img/ourblog2.webp" type="image/webp"><picture><source srcset="img/ourblog2.webp" type="image/webp"><img src="img/ourblog2.jpg" alt="" class="blog_img"></picture></picture>
+                    <div class="state_title">
+                        all about headshots inside professional studios
+                    </div>
+                    <div class="blog_item_foot">
+                    <div class="number_comments">
+                        <picture><source srcset="img/comm.webp" type="image/webp"><picture><source srcset="img/comm.webp" type="image/webp"><img src="img/comm.png" alt="" class="comment_ico"></picture></picture>
+                        15 Comments
+                    </div>
+                    <div class="state_data">
+                        June, 2020
+                    </div>
+                </div>
+                </div>
+                <div class="state_item">
+                    <picture><source srcset="img/ourblog3.webp" type="image/webp"><picture><source srcset="img/ourblog3.webp" type="image/webp"><img src="img/ourblog3.jpg" alt="" class="blog_img"></picture></picture>
+                    <div class="state_title">
+                        all about headshots inside professional studios
+                    </div>
+                    <div class="blog_item_foot">
+                    <div class="number_comments">
+                        <picture><source srcset="img/comm.webp" type="image/webp"><picture><source srcset="img/comm.webp" type="image/webp"><img src="img/comm.png" alt="" class="comment_ico"></picture></picture>
+                        15 Comments
+                    </div>
+                    <div class="state_data">
+                        June, 2020
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="btn_box_center">
+                <a href="#" class="btn">
+                    See All Posts
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="main_container">
+          <div class="top_footer">
+            <div class="logo_link">
+              <picture><source srcset="img/logo_white.webp" type="image/webp"><picture><source srcset="img/logo_white.webp" type="image/webp"><img src="img/logo_white.png" alt="" class="logo_img" /></picture></picture>
+            </div>
+            <div class="foot_links_box">
+                <ul>
+                    <li class="foot_link_list">Links</li>
+                    <li class="foot_link_list">
+                        <a href="#" class="foot_nav_link">
+                Individuals
+    
+                        </a>
+                    </li>
+                    <li class="foot_link_list">
+                        <a href="#" class="foot_nav_link">
+                Companies
+    
+                        </a>
+                    </li>
+                    <li class="foot_link_list">
+                        <a href="#" class="foot_nav_link">
+                The Studio
+    
+                        </a>
+                    </li>
+                    <li class="foot_link_list">
+                        <a href="#" class="foot_nav_link">
+                About Us
+    
+                        </a>
+                    </li>
+                    <li class="foot_link_list">
+                        <a href="#" class="foot_nav_link">
+                            Blog
+    
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="resourses_box">
+                <ul>
+                    <li class="resourse_list">
+                        Resources
+                    </li>
+                    <li class="resourse_list">
+                    Lorem ipsum dolor sit amet, consectetur adipis.
+    
+                    </li>
+                    <li class="resourse_list">
+                    Donec nisi enim, finibus non malesuada vitae.
+    
+                    </li>
+                    <li class="resourse_list">
+                    Nulla eget fringilla libero, ut ultricies neque.
+    
+                    </li>
+                    <li class="resourse_list">
+                    Morbi id aliquet sem. Ut mattis diam sit amet.
+    
+                    </li>
+                    <li class="resourse_list">
+                    Curabitur eu efficitur quam. Fusce interdum sem.
+    
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <div class="bot_footer">
+              <div class="studio_inc">
+                <ul>
+                    <li class="studio_adress_li">
+                        Studio Inc
+                    </li>
+                    <li class="studio_adress_li">
+                        125  Southern Way 
+                    </li>
+                    <li class="studio_adress_li">
+                        EH23 1SZ 
+                    </li>
+                    <li class="studio_adress_li">
+                        North Middleton, UK
+                    </li>
+                </ul>
+              </div>
+              <div class="foot_contacts_box">
+                  <ul>
+                      <li class="foot_contact_li">
+                        Contact
+                      </li>
+                      <li class="foot_contact_li">
+                          <a href="" class="foot_contact_link">
+                            (123) 345 3781 
+                          </a>
+                        </li>
+                      <li class="foot_contact_li">
+                          <a href="" class="foot_contact_link">
+                            smile@studio-inc.com
+                          </a>
+                        </li>
+                  </ul>
+              </div>
+              <div class="foot_soc_links_box">
+                  <ul>
+                      <li class="foot_soc_li">
+                          <a href="" class="foot_soc_link">
+                            <svg>
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                            Facebook 
+                      </a>
+                    </li>
+                      <li class="foot_soc_li">
+                          <a href="" class="foot_soc_link">
+                            <svg>
+                                <use xlink:href="#instagram"></use>
+                            </svg>
+                             Instagram
+                      </a>
+                    </li>
+                      <li class="foot_soc_li">
+                          <a href="" class="foot_soc_link">
+                            <svg>
+                                <use xlink:href="#linkedin"></use>
+                            </svg>
+                            Linkedin
+                      </a>
+                    </li>
+                      <li class="foot_soc_li">
+                          <a href="" class="foot_soc_link">
+                            <svg>
+                                <use xlink:href="#google"></use>
+                            </svg>
+                          Google
+                      </a>
+                    </li>
+                      <li class="foot_soc_li">
+                          <a href="" class="foot_soc_link">
+                            <svg>
+                                <use xlink:href="#yelp"></use>
+                            </svg>
+                        
+                          Yelp
+                      </a>
+                    </li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+</body>
+
+</html>
+
+
+

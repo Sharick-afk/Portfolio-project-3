@@ -1,0 +1,5 @@
+$(".slider-for").slick({slidesToShow:1,slidesToScroll:1,arrows:!1,fade:!0,asNavFor:".slider-nav",focusOnSelect:!0,adaptiveHeight:!0}),$(".slider-nav").slick({slidesToShow:2,slidesToScroll:1,asNavFor:".slider-for",focusOnSelect:!0,rows:2}),$(".filtering").slick({slidesToShow:4,slidesToScroll:4}),$((function(){$("[data-filter]").on("click",(function(s){s.preventDefault();let e=$(this).data("filter");"all"===e?$(this).removeClass("hide"):$("[data-cat]").each((function(){$(this).data("cat")!=e?$(this).addClass("hide"):$(this).removeClass("hide")}))}))})),$(document).ready((function(){$(".second_slider").slick({slidesToShow:3,arrows:!1,dots:!0,slidesToScroll:3})}));$(document).ready(function () {
+    $('.burger_box , .overlay').click(function (event) {
+        $('.nav_burger, .overlay').toggleClass('active');
+    });
+});
