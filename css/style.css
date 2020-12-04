@@ -582,7 +582,9 @@ h1 {
   height: 100%;
   width: 100%;
 }
-
+.slick-current{
+  z-index: 20;
+}
 .slide_item {
   position: relative;
 }
